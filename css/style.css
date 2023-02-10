@@ -1,0 +1,255 @@
+@font-face {
+  font-family: Homeday;
+  src: url(/fonts/Homeday/Homeday.ttf);
+}
+header {
+  height: 600px;
+  background-image: url(/img/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header div {
+  padding: 35px;
+  width: 1400px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+header div .navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+header div .navigation div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header div .navigation div a {
+  margin-right: 30px;
+  padding: 15px;
+  background-color: #D9ADD6;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+header div .navigation div a:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  background-color: #de7cd8;
+}
+header div .navigation nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+header div .navigation nav ul li {
+  margin-right: 80px;
+}
+header div .navigation nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+header div .navigation nav ul li a:hover {
+  cursor: pointer;
+  color: rgb(255, 217, 0);
+}
+
+main {
+  max-width: 1400px;
+  margin: 50px auto;
+}
+main .section {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section div {
+  height: 100%;
+}
+main .section .resto {
+  width: 40%;
+}
+main .section .resto h1 {
+  font-family: "Homeday";
+  color: #D9ADD6;
+  font-size: 2.3rem;
+}
+main .section .resto p {
+  color: rgb(87, 87, 87);
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+main .section .titi-story {
+  width: 55%;
+}
+main .section .titi-story h1 {
+  font-family: "Homeday";
+  color: #D9ADD6;
+}
+main .section .titi-story h2 {
+  color: rgb(87, 87, 87);
+  font-size: 1.8rem;
+}
+main .section .titi-story p {
+  color: rgb(87, 87, 87);
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+main .section-2 {
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+main .section-2 .titi-story {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .section-2 .titi-story .arrow {
+  transition: 0.2s;
+}
+main .section-2 .titi-story .arrow:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+main .break {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .break h1 {
+  font-size: 2.3rem;
+  font-family: "Homeday";
+  color: #D9ADD6;
+}
+main article {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main article div {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+main article div h2 {
+  color: rgb(87, 87, 87);
+  font-size: 1.8rem;
+}
+main article div p {
+  color: rgb(87, 87, 87);
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+main article div button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  transition: 0.2s;
+}
+main article div button:hover {
+  cursor: pointer;
+  background-color: rgb(123, 117, 117);
+  transform: scale(1.05);
+}
+
+.section-news-letter {
+  padding: 100px;
+  background-color: #D9D9D9;
+}
+.section-news-letter .news-letter-container {
+  height: 200px;
+  max-width: 1400px;
+  background-color: #576D8B;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.section-news-letter .news-letter-container p {
+  color: rgb(87, 87, 87);
+  font-size: 1.5rem;
+  opacity: 0.8;
+  color: white;
+  font-size: 2rem;
+  opacity: 1;
+}
+.section-news-letter .news-letter-container img {
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.section-news-letter .news-letter-container img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: rgb(14, 14, 69);
+  height: 400px;
+}
+footer .footer-container {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0px auto;
+  padding: 50px;
+}
+footer .footer-container h2 {
+  color: white;
+}
+footer .footer-container ul {
+  list-style: none;
+  color: white;
+}
+footer .footer-container ul li {
+  margin: 10px 0;
+}
+footer .footer-container ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+footer .footer-container ul li a:hover {
+  color: rgb(255, 217, 0);
+  transform: scale(1.1);
+}
+footer .footer-container img {
+  transition: 0.4s;
+}
+footer .footer-container img:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+  background-color: rgb(255, 187, 2);
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

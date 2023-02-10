@@ -1,0 +1,23 @@
+@import "variables.scss";
+
+@mixin paragraph(){
+  color: $paragraphColor;
+        font-size: 1.5rem;
+        opacity: 0.8;
+}
+
+@mixin button(){
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: $borderRounded;
+  background-color: $btnBgColor;
+  color: $btnTextColor;
+  transition: 0.2s;
+  &:hover{
+    cursor: pointer;
+    background-color: $btnBgColorHover;
+    transform: scale(1.05);
+  }
+}
+
